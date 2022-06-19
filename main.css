@@ -4,8 +4,10 @@
 body {
     color: white;
     font-family: 'Source Sans Pro';
-    background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("./img/bg.jpg") ;
-}
+    background: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("./img/bg.jpg") ;
+    background-size: cover;
+  }
+
 
 
 /* Header */
@@ -31,7 +33,7 @@ header {
     font-size: 20px;
     text-decoration: none;
     color: white;
-    font-weight: bold;
+        font-weight: bold;
 
   }
 
