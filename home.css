@@ -7,7 +7,6 @@ body {
     background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("./img/bg.jpg");
 }
 
-
 /* Header */
 
 header {
@@ -29,6 +28,7 @@ header {
     font-size: 20px;
     text-decoration: none;
     color: white;
+    font-weight: bold;
 
   }
 
@@ -48,15 +48,18 @@ main
     margin-left: 100px;
     display: flex;
     flex-direction: column;
-    margin-top: 15%;
+    margin-top: 300px;
 }
 
 .name h3 
 {
-    font-size: 26px;
-    margin-bottom: 20px;
+    font-size: 60px;
+    margin-bottom: 35px;
     font-family: 'Source Sans Pro';
     color: rgba(255, 255, 255, 0.552);
+    animation-delay: 1s;
+    font-weight: bold;
+    letter-spacing: 1.2px;
 
 }
 .name h2
@@ -64,10 +67,37 @@ main
     font-size: 35px;
     font-family: 'Source Sans Pro';
     padding-bottom: 20px;
+    letter-spacing: 1.2px;
 }
 
 .name p 
 {
     font-family: 'Source Sans Pro';
     width: 90%;
+    animation-delay: 3s;
+    color: #f9f9f9b4;
+    letter-spacing: 1.2px;
+
+}
+
+canvas {
+    position: absolute;
+    z-index: -2;
+}
+
+
+/* Animation */
+
+
+
+  .anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 1s linear forwards;
+  }
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
