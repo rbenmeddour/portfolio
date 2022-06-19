@@ -4,7 +4,7 @@
 body {
     color: white;
     font-family: 'Source Sans Pro';
-    background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("./img/bg.jpg");
+    background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("./img/bg.jpg") ;
 }
 
 
@@ -33,55 +33,3 @@ header {
     color: white;
   }
 
-  /* Main */
-
-  form 
-  {
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-
-  .test {
-    border: 1px solid #000000;
-    width: 50%;
-     display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-wrap: wrap; 
-  }
-
-  .test input 
-  {
-    width: 100%;
-    margin: 10px;
-  }
-
-  .test div 
-  {
-    padding: 24px 0 0 24px;
-  }
-
-  .form-group
-  {
-    /* width: 82%; */
-    /* height: 100%; */
-  }
-
-  .form-group 
-  {
-    width: calc(100% - 1.5rem);
-  }
-
-  .form-group-half
-  {
-    width: calc(50% - 0,75em);
-    overflow: hidden;
-  }
-
-  .form-group textarea 
-  {
-    /* width: 80%;      */
-  }
